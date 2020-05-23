@@ -13,6 +13,7 @@
 		D253C9A72478541200A9D0F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D253C9A52478541200A9D0F2 /* Main.storyboard */; };
 		D253C9A92478541800A9D0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D253C9A82478541800A9D0F2 /* Assets.xcassets */; };
 		D253C9AC2478541800A9D0F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D253C9AA2478541800A9D0F2 /* LaunchScreen.storyboard */; };
+		D253C9B42478544F00A9D0F2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253C9B32478544F00A9D0F2 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D253C9A82478541800A9D0F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D253C9AB2478541800A9D0F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D253C9AD2478541800A9D0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D253C9B32478544F00A9D0F2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D253C99F2478541200A9D0F2 /* AppDelegate.swift */,
 				D253C9A12478541200A9D0F2 /* SceneDelegate.swift */,
 				D253C9A32478541200A9D0F2 /* ViewController.swift */,
+				D253C9B32478544F00A9D0F2 /* AddViewController.swift */,
 				D253C9A52478541200A9D0F2 /* Main.storyboard */,
 				D253C9A82478541800A9D0F2 /* Assets.xcassets */,
 				D253C9AA2478541800A9D0F2 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				D253C9A42478541200A9D0F2 /* ViewController.swift in Sources */,
 				D253C9A02478541200A9D0F2 /* AppDelegate.swift in Sources */,
+				D253C9B42478544F00A9D0F2 /* AddViewController.swift in Sources */,
 				D253C9A22478541200A9D0F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBG25D3T2U;
 				INFOPLIST_FILE = QuanRemiders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBG25D3T2U;
 				INFOPLIST_FILE = QuanRemiders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
